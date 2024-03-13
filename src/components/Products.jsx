@@ -22,8 +22,8 @@ const Products = ({ cat, filters, sort }) => {
 
                 // Formulate the request URL and log it
                 const requestUrl = cat
-                    ? `http://localhost:3000/api/products?categories=${cat}`
-                    : "http://localhost:3000/api/products";
+                    ? `https://shopvistabackend-1.onrender.com/api/products?categories=${cat}`
+                    : "https://shopvistabackend-1.onrender.com/api/products";
                 // console.log("Requesting URL:", requestUrl);
 
                 // Make the request

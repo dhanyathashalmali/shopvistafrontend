@@ -176,7 +176,7 @@ const Cart = () => {
         "Content-Type": "application/json",
         // "Authorization": "Bearer pk_test_51OjI2pSF9sHOGWxVM2eERVGkA2bGxtQRqbqmou49YYTxTSdWx3MQMWWlX8VufxUIyWZGnxEx3PCgFTJbwLX0v3uq00A1axG1n"
       };
-      const response = await fetch("http://localhost:3000/api/create-checkout-session", {
+      const response = await fetch("https://shopvistabackend-1.onrender.com/api/create-checkout-session", {
         method: "POST",
         headers: headers,
         body: JSON.stringify(body)
